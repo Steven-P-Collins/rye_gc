@@ -1,0 +1,27 @@
+body {
+    /*background-color: #99cc99;*/
+    color: #000000;
+}
+
+.background {
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.min_orders {
+    padding: 5% 0 0 10%;
+}
+
+body {
+    padding-top: 56px;
+}
+
+.nav_padding {
+    padding: 0 3% !important;
+}
+
+.index_text {
+    background-color: #99cc99;
+    opacity: .7;
+}
