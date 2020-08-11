@@ -1,2 +1,2 @@
-# rye_gs
+# rye_gc
 Rye Garden Club Site
