@@ -51,7 +51,14 @@
     .small_hero {
         width: 100%;
         background-position: bottom;
-        background-size: contain;
         margin: 26vh 0 0 0;
+    }
+
+    .container-fluid {
+        padding-right: 0 !important;
+    }
+
+    .navbar-toggler {
+        margin-right: 5vw !important;
     }
 }
