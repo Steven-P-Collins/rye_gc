@@ -7,7 +7,6 @@
     background-size: cover;
     background-position: right;
     width: 64vw;
-    margin: 13vh 0 0 0;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 
@@ -45,17 +44,13 @@
     }
 
     .text {
-        width: inherit;
+        width: initial;
     }
 
     .small_hero {
         width: 100%;
         background-position: bottom;
         margin: 54vh 0 0 0;
-    }
-
-    .container-fluid {
-        padding-right: 0 !important;
     }
 
     .navbar-toggler {
@@ -66,5 +61,11 @@
 @media only screen and (min-width: 355px) {
     .small_hero {
         margin: 45vh 0 0 0;
+    }
+}
+
+@media only screen and (min-width: 426px) {
+    .small_hero {
+        margin: 13vh 0 0 0;
     }
 }
