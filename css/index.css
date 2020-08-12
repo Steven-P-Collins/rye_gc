@@ -7,7 +7,7 @@
     background-size: cover;
     background-position: right;
     width: 64vw;
-    margin-top: 100px;
+    margin: 13vh 0 0 0;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 
@@ -30,7 +30,6 @@
     position: absolute;
     width: 50vw;
     font-family: snell roundhand;
-    height: 18vh;
 }
 
 @media only screen and (max-width: 425px) {
@@ -38,8 +37,21 @@
         min-height: 10px;
         background-position: center;
         width: 100%;
-        margin: 12vh 0 0 0;
+        margin: 12vh 0 3vh 0;
+    }
 
+    .index_text {
+        margin: 21vh 0 0 12vw;
+    }
 
+    .text {
+        width: inherit;
+    }
+
+    .small_hero {
+        width: 100%;
+        background-position: bottom;
+        background-size: contain;
+        margin: 26vh 0 0 0;
     }
 }
