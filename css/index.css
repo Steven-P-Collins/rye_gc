@@ -1,8 +1,45 @@
-.hero {
-    height: 100vh;
+
+.small_hero {
+    height: calc(95vh - 75px);
     min-height: 500px;
-    background-image: url('../imgs/hero.jpg');
-    background-size: cover;
-    background-position: top;
     background-repeat: no-repeat;
+    background-image: url('../imgs/white.jpg');
+    background-size: cover;
+    background-position: right;
+    width: 64vw;
+    margin-top: 100px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.logo {
+    background-image: url('../imgs/rye_gc_trans2.png');
+    height: 20vh;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    width: 20%;
+    margin: 3vh 5vw 0 6vw;
+}
+
+.index_text {
+    margin: 52vh 0 0 0;
+}
+
+.text {
+    position: absolute;
+    width: 50vw;
+    font-family: snell roundhand;
+    height: 18vh;
+}
+
+@media only screen and (max-width: 425px) {
+    .logo {
+        min-height: 10px;
+        background-position: center;
+        width: 100%;
+        margin: 12vh 0 0 0;
+
+
+    }
 }
