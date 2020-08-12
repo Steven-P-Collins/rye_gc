@@ -53,9 +53,9 @@
         margin: 54vh 0 0 0;
     }
 
-    .navbar-toggler {
-        margin-right: 5vw !important;
-    }
+    /*.navbar-toggler {*/
+    /*    margin-right: 5vw !important;*/
+    /*}*/
 }
 
 @media only screen and (min-width: 355px) {

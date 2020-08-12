@@ -3,18 +3,6 @@ body {
     color: #000000;
 }
 
-.background {
-    background-color: #ffffff;
-    border-radius: 25px;
-    padding: 15px;
-}
-
-
-
-/*body {*/
-/*    padding-top: 56px;*/
-/*}*/
-
 .nav_padding {
     padding: 0 3% !important;
 }
