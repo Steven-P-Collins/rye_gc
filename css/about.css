@@ -1,5 +1,5 @@
 .miss_img, .hist_img {
-    min-height: 200px;
+    min-height: 150px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -7,29 +7,31 @@
 
 .miss_img {
     background-image: url("../imgs/ladies_w_flowers.jpg");
-    height: 34vh;
 }
 
 .hist_img {
     background-image: url("../imgs/square_house.jpg");
-    height: 60vh;
 }
 
-.miss_text {
-    padding: 3vh 2vh;
+.miss_text, .hist_text, .num_text {
+    padding: 3vh 3vh;
 }
 
-@media only screen and (max-width: 375px) {
-    .miss_text {
-        padding: 3vh 3vh;
-    }
+@media only screen and (min-width: 320px) {
+    /*.miss_text, .hist_text {*/
+    /*    padding: 3vh 3vh;*/
+    /*}*/
 
     .miss_img {
         height: 28vh;
     }
+
+    .hist_img {
+        height: 23vh;
+    }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 375px) {
     .miss_img {
         height: 34vh;
     }
@@ -41,7 +43,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     .miss_img {
         height: 34vh;
     }
