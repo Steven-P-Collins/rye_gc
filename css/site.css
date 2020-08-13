@@ -21,3 +21,15 @@ body {
 .rye_text {
     font-family: "Snell Roundhand";
 }
+
+.small_logo {
+    background-image: url('../imgs/rye_gc_trans2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.page-footer {
+    box-shadow: 0 -.5rem 2rem rgba(0,0,0,.15)!important;
+    height: 18vh;
+}
