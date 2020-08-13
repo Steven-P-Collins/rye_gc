@@ -28,7 +28,34 @@
 .text {
     position: absolute;
     width: 50vw;
+}
+
+.text_home, .text {
     font-family: snell roundhand;
+}
+
+.mission, .history, .comm_proj, .events {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 300px;
+    height: 10vh;
+}
+
+.mission {
+    background-image: url('../imgs/class.jpg');
+}
+
+.history {
+    background-image: url('../imgs/bw_garden.jpg');
+}
+
+.comm_proj {
+    background-image: url('../imgs/bench.jpg');
+}
+
+.events {
+    background-image: url('../imgs/wreath.jpeg');
 }
 
 @media only screen and (max-width: 425px) {
