@@ -1,0 +1,48 @@
+.miss_img, .hist_img {
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.miss_img {
+    background-image: url("../imgs/ladies_w_flowers.jpg");
+    height: 34vh;
+}
+
+.hist_img {
+    background-image: url("../imgs/square_house.jpg");
+    height: 60vh;
+}
+
+.miss_text {
+    padding: 3vh 2vh;
+}
+
+@media only screen and (max-width: 375px) {
+    .miss_text {
+        padding: 3vh 3vh;
+    }
+
+    .miss_img {
+        height: 28vh;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .miss_img {
+        height: 34vh;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .miss_img {
+        height: 38vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .miss_img {
+        height: 34vh;
+    }
+}

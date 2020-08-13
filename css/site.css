@@ -31,5 +31,10 @@ body {
 
 .page-footer {
     box-shadow: 0 -.5rem 2rem rgba(0,0,0,.15)!important;
-    height: 18vh;
+    height: 16vh;
+    padding: .75rem 0 .5rem 0 !important;
+}
+
+.page-margin {
+    margin: 12vh 0 0 0;
 }
