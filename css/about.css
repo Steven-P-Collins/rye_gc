@@ -1,4 +1,4 @@
-.miss_img, .hist_img {
+.miss_img, .hist_img, .hist_img_1, .hist_img_2, .hist_img_3 {
     min-height: 150px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -13,15 +13,23 @@
     background-image: url("../imgs/square_house.jpg");
 }
 
+.hist_img_1 {
+    background-image: url("../imgs/roses.jpg");
+}
+
+.hist_img_2 {
+    background-image: url("../imgs/IMG_1512.jpg");
+}
+
+.hist_img_3 {
+    background-image: url("../imgs/milton.jpg");
+}
+
 .miss_text, .hist_text, .num_text {
-    padding: 3vh 3vh;
+    padding: 4vh;
 }
 
 @media only screen and (min-width: 320px) {
-    /*.miss_text, .hist_text {*/
-    /*    padding: 3vh 3vh;*/
-    /*}*/
-
     .miss_img {
         height: 28vh;
     }
@@ -29,11 +37,39 @@
     .hist_img {
         height: 23vh;
     }
+
+    .hist_text {
+        padding: 3vh 4vh;
+    }
+
+    .hist_img_1, .hist_img_2 {
+        height: 28vh;
+    }
+
+    .hist_img_3 {
+        height: 25vh;
+    }
 }
 
 @media only screen and (min-width: 375px) {
     .miss_img {
         height: 34vh;
+    }
+
+    .hist_img {
+        height: 27vh;
+    }
+
+    .hist_text {
+        padding: 3vh 5vh;
+    }
+
+    .hist_img_1, .hist_img_2 {
+        height: 33vh;
+    }
+
+    .hist_img_3 {
+        height: 29vh;
     }
 }
 
@@ -41,10 +77,79 @@
     .miss_img {
         height: 38vh;
     }
+
+    .hist_img {
+        height: 31vh;
+    }
+
+    .hist_img_1, .hist_img_2 {
+        height: 37vh;
+    }
+
+    .hist_img_3 {
+        height: 33vh;
+    }
 }
 
 @media only screen and (min-width: 768px) {
     .miss_img {
         height: 34vh;
+    }
+
+    .hist_img {
+        height: 59vh;
+    }
+
+    .hist_img_1, .hist_img_2 {
+        height: 71vh;
+    }
+
+    .hist_img_3 {
+        height: 63vh;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .hist_img {
+        margin: 0 5vw 0 0;
+        height: 42vh;
+    }
+
+    .hist_text {
+        padding: 1vh 5vh;
+    }
+
+    .hist_img_1 {
+        height: 48vh;
+    }
+
+    .hist_img_2 {
+        height: 47vh;
+    }
+
+    .hist_img_3 {
+        height: 42vh;
+    }
+
+    .row_margin {
+        margin: 0 0 5vh 4vw;
+    }
+
+    .row_margin_r {
+        margin: 0 4vw 5vh 0;
+    }
+
+    .hist_bottom_marg {
+        margin-bottom: 3vh;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .hist_text {
+        padding: 1vh 10vh;
+    }
+
+    .hist_bottom_marg {
+        margin-left: 4vw;
     }
 }
