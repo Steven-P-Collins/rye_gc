@@ -1,0 +1,42 @@
+.comm_gardening {
+    height: 27vh;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-image: url('../imgs/gardening.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    width: 95vw;
+    border-radius: .25rem;
+    margin: 11vh 0 0 2.5vw;
+}
+
+.text_proj {
+    color: #ffffff;
+    position: absolute;
+}
+
+.header {
+    font-family: "Snell Roundhand";
+    margin: 12vh 0 0 12vw;
+
+}
+
+.header_adjust {
+    margin-left: 5vw;
+    width: 90vw;
+}
+
+@media only screen and (min-width: 375px) {
+    .comm_gardening {
+
+    }
+
+    .text_proj {
+
+    }
+
+    .header_adjust {
+
+    }
+}

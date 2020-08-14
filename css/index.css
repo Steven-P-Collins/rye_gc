@@ -30,6 +30,11 @@
     width: 56vw;
 }
 
+.bottom_marg {
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
 @media only screen and (min-width: 1440px) {
     .text_home {
         width: 42vw;
@@ -38,14 +43,19 @@
 
 .text_home, .text {
     font-family: snell roundhand;
+    color: #000000;
 }
 
 .mission, .history, .comm_proj, .events {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    min-height: 300px;
-    height: 10vh;
+    min-height: 150px;
+    /*margin: 0 0 4vh 0;*/
+}
+
+.index_item_margin {
+    margin: 0 0 3vh 0;
 }
 
 .mission {
@@ -83,18 +93,142 @@
     .small_hero {
         width: 100%;
         background-position: bottom;
-        margin: 54vh 0 0 0;
+        margin: 54vh 0 5vh 0;
     }
 }
 
 @media only screen and (min-width: 355px) {
     .small_hero {
-        margin: 45vh 0 0 0;
+        margin: 45vh 0 5vh 0;
     }
 }
 
 @media only screen and (min-width: 426px) {
     .small_hero {
-        margin: 11vh 0 0 0;
+        margin: 11vh 0 5vh 0;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    .comm_proj {
+        height: 52vh;
+    }
+
+    .mission {
+        height: 35vh;
+    }
+
+    .history {
+        height: 26vh;
+    }
+
+    .events {
+        height: 26vh;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .comm_proj {
+        height: 61vh;
+    }
+
+    .mission {
+        height: 41vh;
+    }
+
+    .history {
+        height: 30vh;
+    }
+
+    .events {
+        height: 31vh;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .comm_proj {
+        height: 70vh;
+    }
+
+    .mission {
+        height: 47vh;
+    }
+
+    .history {
+        height: 35vh;
+    }
+
+    .events {
+        height: 35vh;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .comm_proj {
+        height: 70vh;
+    }
+
+    .mission {
+        height: 47vh;
+    }
+
+    .history {
+        height: 35vh;
+    }
+
+    .events {
+        height: 65vh;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .comm_proj {
+        height: 70vh;
+    }
+
+    .mission {
+        height: 47vh;
+    }
+
+    .history {
+        height: 35vh;
+    }
+
+    .events {
+        height: 70vh;
+    }
+
+    .site_width {
+        width: 80vw;
+    }
+
+    .tab_margin {
+        margin-left: 4vw;
+    }
+
+    .tab_margin_r {
+        margin-right: 4vw;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .comm_proj {
+        height: 70vh;
+    }
+
+    .mission {
+        height: 47vh;
+    }
+
+    .history {
+        height: 35vh;
+    }
+
+    .events {
+        height: 93vh;
+    }
+
+    .tab_margin_r {
+        margin-right: 2vw;
     }
 }

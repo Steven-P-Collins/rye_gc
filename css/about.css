@@ -25,7 +25,7 @@
     background-image: url("../imgs/milton.jpg");
 }
 
-.miss_text, .hist_text, .num_text {
+.miss_text, .hist_text, .num_text, .hist_text_start {
     padding: 4vh;
 }
 
@@ -36,6 +36,10 @@
 
     .hist_img {
         height: 23vh;
+    }
+
+    .hist_text_start {
+        padding: 3vh 4vh;
     }
 
     .hist_text {
@@ -61,6 +65,10 @@
     }
 
     .hist_text {
+        padding: 3vh 5vh;
+    }
+
+    .hist_text_start {
         padding: 3vh 5vh;
     }
 
@@ -119,6 +127,10 @@
         padding: 1vh 5vh;
     }
 
+    .hist_text_start {
+        padding: 1vh 5vh 0 3vh;
+    }
+
     .hist_img_1 {
         height: 48vh;
     }
@@ -147,6 +159,10 @@
 @media only screen and (min-width: 1440px) {
     .hist_text {
         padding: 1vh 10vh;
+    }
+
+    .hist_text_start {
+        padding: 1vh 5vh 0 12vh;
     }
 
     .hist_bottom_marg {
