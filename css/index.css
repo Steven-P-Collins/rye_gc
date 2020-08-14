@@ -27,7 +27,13 @@
 
 .text_home {
     position: absolute;
-    width: 50vw;
+    width: 56vw;
+}
+
+@media only screen and (min-width: 1440px) {
+    .text_home {
+        width: 42vw;
+    }
 }
 
 .text_home, .text {
