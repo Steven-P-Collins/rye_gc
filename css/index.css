@@ -41,8 +41,12 @@
     }
 }
 
-.text_home, .text {
+.text_home, .text, .card-title {
     font-family: snell roundhand;
+    color: #336633;
+}
+
+.text_home {
     color: #000000;
 }
 
@@ -51,7 +55,6 @@
     background-size: contain;
     background-position: center;
     min-height: 150px;
-    /*margin: 0 0 4vh 0;*/
 }
 
 .index_item_margin {
