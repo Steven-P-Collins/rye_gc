@@ -11,6 +11,32 @@
     margin: 11vh 0 0 2.5vw;
 }
 
+.card_margin {
+    margin: 0 2.5vw;
+}
+
+.projects_text {
+    margin: 2vh .5vw;
+}
+
+@media only screen and (min-width: 768px) {
+    .projects_text {
+        margin: 2vh 1vw;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .projects_text {
+        margin: 2vh 1.5vw;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .projects_text {
+        margin: 2vh 2vw;
+    }
+}
+
 .text_proj {
     color: #ffffff;
     position: absolute;
@@ -18,25 +44,40 @@
 
 .header {
     font-family: "Snell Roundhand";
-    margin: 12vh 0 0 12vw;
-
+    margin: 12vh 0 0 0;
 }
 
 .header_adjust {
-    margin-left: 5vw;
-    width: 90vw;
+    margin: 2vh 1vw;
 }
 
-@media only screen and (min-width: 375px) {
-    .comm_gardening {
-
+@media only screen and (min-width: 768px) {
+    .header {
+        margin: 12vh 0 0 1.5vw;
     }
-
-    .text_proj {
-
-    }
-
     .header_adjust {
+        margin: 2vh 2vw;
+        width: 40vw;
+    }
+}
 
+@media only screen and (min-width: 1024px) {
+    .header {
+        margin: 12vh 0 0 2vw;
+    }
+    .header_adjust {
+        margin: 2vh 2.5vw;
+        width: 30vw;
+
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .header {
+        margin: 12vh 0 0 3vw;
+    }
+    .header_adjust {
+        margin: 2vh 3.25vw;
+        width: 20vw;
     }
 }
