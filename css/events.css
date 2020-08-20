@@ -3,7 +3,7 @@
     min-height: 100px;
     background-repeat: no-repeat;
     background-image: url('../imgs/she.png');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     /*box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;*/
     /*width: 95vw;*/
