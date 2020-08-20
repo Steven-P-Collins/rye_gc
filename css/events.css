@@ -1,5 +1,5 @@
 .she {
-    height: 27vh;
+    height: 25vh;
     min-height: 100px;
     background-repeat: no-repeat;
     background-image: url('../imgs/she.png');
@@ -9,4 +9,16 @@
     /*width: 95vw;*/
     /*border-radius: .25rem;*/
     /*margin: 11vh 0 0 2.5vw;*/
+}
+
+@media only screen and (min-width: 375px) {
+    .she {
+        height: 30vh;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .she {
+        height: 35vh;
+    }
 }
