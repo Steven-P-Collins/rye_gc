@@ -1,0 +1,12 @@
+.she {
+    height: 27vh;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-image: url('../imgs/she.png');
+    background-size: cover;
+    background-position: center;
+    /*box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;*/
+    /*width: 95vw;*/
+    /*border-radius: .25rem;*/
+    /*margin: 11vh 0 0 2.5vw;*/
+}
