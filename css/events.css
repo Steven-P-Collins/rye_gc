@@ -22,3 +22,33 @@
         height: 35vh;
     }
 }
+
+@media only screen and (min-width: 768px) {
+    .she {
+        height: 32vh;
+    }
+
+    .miss_text {
+        padding: 2vh !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .she {
+        height: 41vh;
+    }
+
+    .miss_text {
+        padding: 4vh !important;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .she {
+        height: 42vh;
+    }
+
+    .miss_text {
+        padding: 4vh !important;
+    }
+}
