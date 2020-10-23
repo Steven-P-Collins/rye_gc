@@ -25,14 +25,14 @@
     margin: 52vh 0 0 0;
 }
 
-.text_home {
-    position: absolute;
-    width: 56vw;
-}
-
 .bottom_marg {
     margin-bottom: 5vh;
     margin-top: 5vh;
+}
+
+.text_home {
+    position: absolute;
+    width: 56vw;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -50,31 +50,73 @@
     color: #000000;
 }
 
-.mission, .history, .comm_proj, .events {
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    min-height: 150px;
+/*.mission, .history, .comm_proj, .events {*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: contain;*/
+/*    background-position: center;*/
+/*    min-height: 150px;*/
+/*}*/
+
+/*.index_item_margin {*/
+/*    margin: 0 0 3vh 0;*/
+/*}*/
+
+/*.mission {*/
+/*    background-image: url('../imgs/class.jpg');*/
+/*}*/
+
+/*.history {*/
+/*    background-image: url('../imgs/bw_garden.jpg');*/
+/*}*/
+
+/*.comm_proj {*/
+/*    background-image: url('../imgs/bench.jpg');*/
+/*}*/
+
+/*.events {*/
+/*    background-image: url('../imgs/wreath.jpeg');*/
+/*}*/
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
-.index_item_margin {
-    margin: 0 0 3vh 0;
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
 
-.mission {
-    background-image: url('../imgs/class.jpg');
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
 
-.history {
-    background-image: url('../imgs/bw_garden.jpg');
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
 }
 
-.comm_proj {
-    background-image: url('../imgs/bench.jpg');
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
 }
 
-.events {
-    background-image: url('../imgs/wreath.jpeg');
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @media only screen and (max-width: 425px) {
@@ -90,7 +132,7 @@
     }
 
     .text_home {
-        width: initial;
+        width: 82vw;
     }
 
     .small_hero {
@@ -128,6 +170,9 @@
     .events {
         height: 26vh;
     }
+    .text_home {
+        width: 90vw;
+    }
 }
 
 @media only screen and (min-width: 375px) {
@@ -145,6 +190,9 @@
 
     .events {
         height: 31vh;
+    }
+    .text_home {
+        width: 93vw;
     }
 }
 
@@ -234,4 +282,14 @@
     .tab_margin_r {
         margin-right: 2vw;
     }
+}
+
+.cards img {
+    filter: grayscale(0%);
+    margin-bottom: 5vh;
+}
+
+.cards:hover img {
+    filter: grayscale(100%);
+    transition: all .5s;
 }
