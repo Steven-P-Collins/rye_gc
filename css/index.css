@@ -50,33 +50,6 @@
     color: #000000;
 }
 
-/*.mission, .history, .comm_proj, .events {*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: contain;*/
-/*    background-position: center;*/
-/*    min-height: 150px;*/
-/*}*/
-
-/*.index_item_margin {*/
-/*    margin: 0 0 3vh 0;*/
-/*}*/
-
-/*.mission {*/
-/*    background-image: url('../imgs/class.jpg');*/
-/*}*/
-
-/*.history {*/
-/*    background-image: url('../imgs/bw_garden.jpg');*/
-/*}*/
-
-/*.comm_proj {*/
-/*    background-image: url('../imgs/bench.jpg');*/
-/*}*/
-
-/*.events {*/
-/*    background-image: url('../imgs/wreath.jpeg');*/
-/*}*/
-
 .container {
     position: relative;
     text-align: center;
@@ -154,113 +127,8 @@
     }
 }
 
-@media only screen and (min-width: 320px) {
-    .comm_proj {
-        height: 52vh;
-    }
 
-    .mission {
-        height: 35vh;
-    }
 
-    .history {
-        height: 26vh;
-    }
-
-    .events {
-        height: 26vh;
-    }
-    .text_home {
-        width: 90vw;
-    }
-}
-
-@media only screen and (min-width: 375px) {
-    .comm_proj {
-        height: 61vh;
-    }
-
-    .mission {
-        height: 41vh;
-    }
-
-    .history {
-        height: 30vh;
-    }
-
-    .events {
-        height: 31vh;
-    }
-    .text_home {
-        width: 93vw;
-    }
-}
-
-@media only screen and (min-width: 425px) {
-    .comm_proj {
-        height: 70vh;
-    }
-
-    .mission {
-        height: 47vh;
-    }
-
-    .history {
-        height: 35vh;
-    }
-
-    .events {
-        height: 35vh;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .comm_proj {
-        height: 70vh;
-    }
-
-    .mission {
-        height: 47vh;
-    }
-
-    .history {
-        height: 35vh;
-    }
-
-    .events {
-        height: 65vh;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .comm_proj {
-        height: 70vh;
-    }
-
-    .mission {
-        height: 47vh;
-    }
-
-    .history {
-        height: 35vh;
-    }
-
-    .events {
-        height: 70vh;
-    }
-
-    .site_width {
-        width: 80vw;
-    }
-
-    .tab_margin {
-        margin-left: 4vw;
-    }
-
-    .tab_margin_r {
-        margin-right: 4vw;
-    }
-}
 
 @media only screen and (min-width: 1440px) {
     .comm_proj {
@@ -284,12 +152,32 @@
     }
 }
 
-.cards img {
+.img_sizing {
+    height: 40vh;
+    width: 40vh;
     filter: grayscale(0%);
-    margin-bottom: 5vh;
+    margin-bottom: 5vh
 }
 
-.cards:hover img {
+.img_sizing:hover {
     filter: grayscale(100%);
     transition: all .5s;
+}
+
+.img_sizing:hover + .carousel-caption{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+.phrase {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+.img_sizing:hover ~ .phrase {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0.5s, opacity 0.5s linear;
 }
