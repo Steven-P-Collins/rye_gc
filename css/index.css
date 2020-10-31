@@ -24,13 +24,17 @@
 
 .logo {
     background-image: url('../imgs/rye_gc_trans2.png');
-    height: 20vh;
-    min-height: 500px;
+    /*height: 20vh;*/
+    min-height: 350px;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: left;
-    width: 20%;
-    margin: 3vh 5vw 0 6vw;
+    background-position: center;
+    /*width: 20%;*/
+    /*margin: 3vh 5vw 0 6vw;*/
+}
+
+.logo_size {
+    height: 40vh;
 }
 
 .index_text {
