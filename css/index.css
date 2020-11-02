@@ -15,7 +15,8 @@
     height: 500px;
     margin: 8vh 0 5vh 0;
     min-height: 500px;
-    background-image: url("../imgs/long_island_sound.jpg");
+    background-image: url("../imgs/long_island_sound_edit.jpg");
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
@@ -110,10 +111,15 @@
 
 @media only screen and (max-width: 425px) {
     .logo {
-        min-height: 10px;
+        height: 16vh;
+        min-height: 125px;
         background-position: center;
         width: 100%;
-        margin: 12vh 0 3vh 0;
+        margin: 0 0 5vh 0;
+    }
+
+    .li_sound {
+        margin: 38vh 0 5vh 0;
     }
 
     .index_text {
@@ -126,8 +132,8 @@
 }
 
 .img_sizing {
-    height: 40vh;
-    width: 40vh;
+    height: 35vh;
+    width: 35vh;
     filter: grayscale(0%);
     margin-bottom: 5vh
 }
@@ -153,4 +159,24 @@
     visibility: visible;
     opacity: 1;
     transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+@media only screen and (min-width: 375px) {
+    .img_sizing {
+        height: 37vh;
+        width: 37vh;
+    }
+    .li_sound {
+        margin: 31vh 0 5vh 0;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .img_sizing {
+        height: 40vh;
+        width: 40vh;
+    }
+    .li_sound {
+        margin: 26vh 0 5vh 0;
+    }
 }
