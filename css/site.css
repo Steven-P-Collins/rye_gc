@@ -42,7 +42,7 @@ hr {
 
 .page-footer {
     box-shadow: 0 -.5rem 2rem rgba(0,0,0,.15)!important;
-    height: 16vh;
+    height: 23vh;
     padding: .75rem 0 .5rem 0 !important;
 }
 
@@ -52,4 +52,11 @@ hr {
 
 .footer {
     font-size: 1rem;
+}
+
+.insta {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url("../imgs/glyph-logo_May2016.png");
 }
