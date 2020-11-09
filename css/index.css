@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-image: url('../imgs/white.jpg');
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
     background-attachment: fixed;
 }
