@@ -4,11 +4,10 @@
     margin: 8vh 0 5vh 0;
     min-height: 500px;
     background-repeat: no-repeat;
-    background-image: url('../imgs/long_island_sound.jpg');
+    background-image: url('../imgs/white.jpg');
     background-size: cover;
     width: 100vw;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-    background-attachment: fixed;
 }
 
 .li_sound {
@@ -176,8 +175,10 @@
         height: 40vh;
         width: 40vh;
     }
-
     .li_sound {
         margin: 26vh 0 5vh 0;
+    }
+    .small_hero {
+        background-attachment: fixed;
     }
 }
