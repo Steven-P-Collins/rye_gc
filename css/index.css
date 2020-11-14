@@ -10,16 +10,8 @@
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 
-.li_sound {
-    height: 500px;
-    margin: 8vh 0 5vh 0;
-    min-height: 500px;
-    background-image: url("../imgs/long_island_sound_edit.jpg");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+.mission {
+    margin: 0 0 5vh 0;
 }
 
 .logo {
@@ -31,10 +23,6 @@
     background-position: center;
     /*width: 20%;*/
     /*margin: 3vh 5vw 0 6vw;*/
-}
-
-.logo_size {
-    height: 40vh;
 }
 
 .index_text {
