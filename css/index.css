@@ -1,3 +1,17 @@
+.about, .history {
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.about {
+    background-image: url("../imgs/aboout.jpeg");
+}
+
+.history {
+    background-image: url("../imgs/long_island_sound_edit.jpg");
+}
 
 .small_hero {
     background-image: url('../imgs/white.jpg');
@@ -161,5 +175,11 @@
     }
     .small_hero {
         background-attachment: fixed;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .about, .history {
+        margin: 2vh;
     }
 }
