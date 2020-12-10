@@ -72,24 +72,24 @@ hr {
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 
-.mobile_hide, .mobile_show {
-    display: none;
-}
+/*.mobile_hide, .mobile_show {*/
+/*    display: none;*/
+/*}*/
 
-@media only screen and (max-width: 767px) {
-    .mobile_hide {
-        display: none;
-    }
-    .mobile_show {
-        display: block;
-    }
-}
+/*@media only screen and (max-width: 767px) {*/
+/*    .mobile_hide {*/
+/*        display: none;*/
+/*    }*/
+/*    .mobile_show {*/
+/*        display: block;*/
+/*    }*/
+/*}*/
 
-@media only screen and (min-width: 768px) {
-    .mobile_hide {
-        display: block;
-    }
-    .mobile_show {
-        display: none;
-    }
-}
+/*@media only screen and (min-width: 768px) {*/
+/*    .mobile_hide {*/
+/*        display: block;*/
+/*    }*/
+/*    .mobile_show {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
