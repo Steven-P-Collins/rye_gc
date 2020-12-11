@@ -11,22 +11,40 @@ hr {
     background-color: #339933;
     opacity: .5;
     width: 90vw;
-    /*margin: 2vh !important;*/
 }
 
 .nav_padding {
     padding: 0 3% !important;
 }
 
+.logo {
+    min-height: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 @media only screen and (max-width: 425px) {
     .rye_text {
         font-size: 1.85rem;
+    }
+    .logo {
+        height: 16vh;
+        min-height: 125px;
+        background-position: center;
+        width: 100%;
+        margin: 0 0 5vh 0;
     }
 }
 @media only screen and (min-width: 425px) {
     .rye_text  {
         font-size: 2rem;
     }
+}
+
+.text, .card-title {
+    font-family: snell roundhand;
+    color: #336633;
 }
 
 .rye_text {
@@ -70,6 +88,59 @@ hr {
     background-size: cover;
     width: 100vw;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.img_sizing {
+    height: 35vh;
+    width: 35vh;
+    filter: grayscale(0%);
+    margin-bottom: 5vh
+}
+
+.img_sizing:hover {
+    filter: grayscale(100%);
+    transition: all .5s;
+}
+
+.img_sizing:hover + .carousel-caption{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+.phrase {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+.img_sizing:hover ~ .phrase {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+@media only screen and (min-width: 375px) {
+    .img_sizing {
+        height: 37vh;
+        width: 37vh;
+    }
+    .li_sound {
+        margin: 31vh 0 5vh 0;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .img_sizing {
+        height: 40vh;
+        width: 40vh;
+    }
+    .li_sound {
+        margin: 26vh 0 5vh 0;
+    }
+    .small_hero {
+        background-attachment: fixed;
+    }
 }
 
 /*.mobile_hide, .mobile_show {*/

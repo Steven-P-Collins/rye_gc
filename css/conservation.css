@@ -1,3 +1,7 @@
 .small_hero {
     background-image: url('../imgs/conservation.jpeg');
 }
+
+.logo {
+    background-image: url("../imgs/lady_bird.jpg");
+}
