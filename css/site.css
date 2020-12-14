@@ -43,7 +43,7 @@ hr {
 }
 
 .text, .card-title {
-    font-family: snell roundhand;
+    font-family: 'Snell Roundhand';
     color: #336633;
 }
 
@@ -94,7 +94,7 @@ hr {
     height: 35vh;
     width: 35vh;
     filter: grayscale(0%);
-    margin-bottom: 5vh
+    margin: 5vh 0
 }
 
 .img_sizing:hover {

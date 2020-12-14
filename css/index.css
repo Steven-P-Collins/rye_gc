@@ -25,11 +25,6 @@
     background-image: url('../imgs/rye_gc_trans2.png');
 }
 
-
-
-
-/*@media only screen and (max-width: 767px) {*/
-/*    .about, .history {*/
-/*        margin: 2vh;*/
-/*    }*/
-/*}*/
+.img_sizing {
+    margin: 0 0 5vh 0;
+}
