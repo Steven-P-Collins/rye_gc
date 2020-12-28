@@ -143,6 +143,13 @@ hr {
     }
 }
 
+.overlay_text {
+    color: #ffffff !important;
+    position: absolute;
+    bottom: 65vh;
+    left: 10vw;
+}
+
 /*.mobile_hide, .mobile_show {*/
 /*    display: none;*/
 /*}*/

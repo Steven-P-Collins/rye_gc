@@ -1,3 +1,8 @@
 .small_hero {
     background-image: url('../imgs/flower_arranging.jpeg');
 }
+
+.logo {
+    background-image: url("../imgs/lady_bird.jpg");
+    border-radius: 50%;
+}

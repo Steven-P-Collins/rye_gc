@@ -1,3 +1,8 @@
 .small_hero {
     background-image: url('../imgs/civic.jpeg');
 }
+
+.logo {
+    background-image: url("../imgs/lady_bird.jpg");
+    border-radius: 50%;
+}

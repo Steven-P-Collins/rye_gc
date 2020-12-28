@@ -6,10 +6,3 @@
     background-image: url("../imgs/lady_bird.jpg");
     border-radius: 50%;
 }
-
-.overlay_text {
-    color: #ffffff !important;
-    position: absolute;
-    bottom: 65vh;
-    left: 10vw;
-}
