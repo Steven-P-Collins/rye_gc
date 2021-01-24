@@ -1,3 +1,4 @@
+DirectoryIndex index.html
 AuthType Basic
 AuthName "restricted area"
 AuthUserFile /home/eu501x4huhim/public_html/html/protected
