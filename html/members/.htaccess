@@ -1,5 +1,4 @@
-DirectoryIndex index.html
 AuthName "Members Login"
 AuthType Basic
-AuthUserFile /home/eu501x4huhim/public_html/html/protected/.htpasswd
+AuthUserFile /home/eu501x4huhim/public_html/html/members/.htpasswd
 Require valid-user
