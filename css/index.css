@@ -9,16 +9,16 @@
     background-image: url("../imgs/aboout.jpeg");
 }
 
-.about_hidden {
-    background-image: none;
-}
-
 .history {
     background-image: url("../imgs/long_island_sound_edit.jpg");
 }
 
-.history_hidden {
+.about_hidden, .history_hidden {
     background-image: none;
+}
+
+.about_text, .history_text {
+    visibility: hidden;
 }
 
 .small_hero {
