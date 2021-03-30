@@ -3,6 +3,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    font-size: 1.4rem;
+    overflow: scroll;
 }
 
 .about {
@@ -18,7 +20,7 @@
 }
 
 .about_text, .history_text {
-    visibility: hidden;
+    display: none;
 }
 
 .small_hero {
