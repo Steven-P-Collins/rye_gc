@@ -149,25 +149,3 @@ hr {
     bottom: 65vh;
     left: 10vw;
 }
-
-/*.mobile_hide, .mobile_show {*/
-/*    display: none;*/
-/*}*/
-
-/*@media only screen and (max-width: 767px) {*/
-/*    .mobile_hide {*/
-/*        display: none;*/
-/*    }*/
-/*    .mobile_show {*/
-/*        display: block;*/
-/*    }*/
-/*}*/
-
-/*@media only screen and (min-width: 768px) {*/
-/*    .mobile_hide {*/
-/*        display: block;*/
-/*    }*/
-/*    .mobile_show {*/
-/*        display: none;*/
-/*    }*/
-/*}*/
