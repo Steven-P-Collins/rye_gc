@@ -1,8 +1,8 @@
 .small_hero {
-    background-image: url('../imgs/camera_flowers.jpg');
+    background-image: url('../imgs/photography_hero.jpg');
 }
 
 .logo {
-    background-image: url("../imgs/lady_bird.jpg");
+    background-image: url("../imgs/photography_circle.jpg");
     border-radius: 50%;
 }

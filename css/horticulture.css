@@ -1,8 +1,8 @@
 .small_hero {
-    background-image: url('../imgs/Horticulture_1.jpeg');
+    background-image: url('../imgs/horticulture_hero.jpg');
 }
 
 .logo {
-    background-image: url("../imgs/lady_bird.jpg");
+    background-image: url("../imgs/horticulture_circle.jpg");
     border-radius: 50%;
 }

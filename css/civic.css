@@ -1,8 +1,8 @@
 .small_hero {
-    background-image: url('../imgs/pumpkin_vines.jpg');
+    background-image: url('../imgs/civic_hero.jpg');
 }
 
 .logo {
-    background-image: url("../imgs/lady_bird.jpg");
+    background-image: url("../imgs/civic_circle.jpg");
     border-radius: 50%;
 }

@@ -1,8 +1,8 @@
 .small_hero {
-    background-image: url('../imgs/conservation.jpeg');
+    background-image: url('../imgs/conservation_hero.jpg');
 }
 
 .logo {
-    background-image: url("../imgs/lady_bird.jpg");
+    background-image: url("../imgs/conservation_circle.jpg");
     border-radius: 50%;
 }

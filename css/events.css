@@ -1,8 +1,8 @@
 .small_hero {
-    background-image: url('../imgs/events.jpg');
+    background-image: url('../imgs/events_hero.jpg');
 }
 
 .logo {
-    background-image: url("../imgs/lady_bird.jpg");
+    background-image: url("../imgs/events_circle.jpg");
     border-radius: 50%;
 }
