@@ -6,3 +6,7 @@
     background-image: url("../imgs/floral_design_circle.jpg");
     border-radius: 50%;
 }
+
+.overlay_text {
+    width: 25%;
+}

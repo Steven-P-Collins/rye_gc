@@ -144,8 +144,14 @@ hr {
 }
 
 .overlay_text {
-    color: #ffffff !important;
+    font-family: "Snell Roundhand";
+    color: #336633 !important;
+    background-color: #ffffff;
     position: absolute;
     bottom: 65vh;
     left: 10vw;
+    font-size: 3rem;
+    border-radius: 50%;
+    width: 21%;
+    opacity: .75;
 }
