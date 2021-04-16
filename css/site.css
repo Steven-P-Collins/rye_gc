@@ -81,8 +81,8 @@ hr {
 }
 
 .small_hero {
-    height: 92vh;
-    margin: 8vh 0 5vh 0;
+    height: 100vh;
+    margin: 0 0 5vh 0;
     min-height: 500px;
     background-repeat: no-repeat;
     background-size: cover;

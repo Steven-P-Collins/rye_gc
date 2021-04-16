@@ -6,3 +6,8 @@
     background-image: url("../imgs/horticulture_circle.jpg");
     border-radius: 50%;
 }
+
+.img_sizing:hover ~ .phrase {
+    background-color: lightgrey;
+    opacity: .5;
+}

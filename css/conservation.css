@@ -1,5 +1,5 @@
 .small_hero {
-    background-image: url('../imgs/conservation_hero.jpg');
+    background-image: url('../imgs/conservation_hero.png');
 }
 
 .logo {
@@ -10,3 +10,10 @@
 .overlay_text {
     width: 23%;
 }
+
+.img_sizing:hover ~ .phrase {
+    background-color: lightgrey;
+    opacity: .5;
+}
+
+/*Change to divs so text doesnt fade*/

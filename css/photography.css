@@ -10,3 +10,8 @@
 .overlay_text {
     width: 25%;
 }
+
+.img_sizing:hover ~ .phrase {
+    background-color: lightgrey;
+    opacity: .5;
+}
