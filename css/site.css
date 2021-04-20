@@ -29,7 +29,7 @@ hr {
         font-size: 1.85rem;
     }
     .logo {
-        height: 16vh;
+        height: 35vh;
         min-height: 125px;
         background-position: center;
         width: 100%;
@@ -94,7 +94,6 @@ hr {
     height: 35vh;
     width: 35vh;
     filter: grayscale(0%);
-    margin: 5vh 0
 }
 
 .img_sizing:hover {
@@ -154,4 +153,23 @@ hr {
     border-radius: 50%;
     width: 21%;
     opacity: .75;
+}
+
+.cards {
+    margin: 2rem auto;
+    position: relative;
+}
+
+.phrase, .carousel-caption {
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.carousel-caption {
+    background-color: rgba(189, 195, 199, .5);
+    padding: 5px;
+    margin: 0;
 }

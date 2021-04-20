@@ -10,10 +10,3 @@
 .overlay_text {
     width: 23%;
 }
-
-.img_sizing:hover ~ .phrase {
-    background-color: lightgrey;
-    opacity: .5;
-}
-
-/*Change to divs so text doesnt fade*/
