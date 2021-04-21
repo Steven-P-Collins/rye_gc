@@ -61,7 +61,7 @@ hr {
 
 .page-footer {
     box-shadow: 0 -.5rem 2rem rgba(0,0,0,.15)!important;
-    height: 23vh;
+    height: 14vh;
     padding: .75rem 0 .5rem 0 !important;
 }
 
@@ -172,4 +172,24 @@ hr {
     background-color: rgba(189, 195, 199, .5);
     padding: 5px;
     margin: 0;
+}
+
+.first_letter {
+    font-family: 'Snell Roundhand';
+    color: #336633;
+    font-size: 3rem;
+    line-height: .75;
+}
+
+.paragraph, .last-paragraph, .first-paragraph {
+    font-size: 1.4rem;
+}
+
+.first-paragraph {
+    margin: 3vh 0 1rem 0;
+}
+
+.last-paragraph {
+    margin: 0 0 5vh 0;
+
 }
