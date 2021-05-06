@@ -10,3 +10,37 @@
 .overlay_text {
     width: 25%;
 }
+
+.overlay_text {
+    width: 77%;
+}
+
+@media only screen and (min-width: 425px) {
+    .overlay_text {
+        width: 79%;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .overlay_text {
+        width: 71%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .overlay_text {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .overlay_text {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .overlay_text {
+        width: 23%;
+    }
+}

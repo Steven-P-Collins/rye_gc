@@ -8,5 +8,35 @@
 }
 
 .overlay_text {
-    width: 23%;
+    width: 80%;
+}
+
+@media only screen and (min-width: 375px) {
+    .overlay_text {
+        width: 72%;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .overlay_text {
+        width: 64%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .overlay_text {
+        width: 35%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .overlay_text {
+        width: 27%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .overlay_text {
+        width: 19%;
+    }
 }
