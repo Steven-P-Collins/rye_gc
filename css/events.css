@@ -1,5 +1,6 @@
 .small_hero {
-    background-image: url('../imgs/events_hero.jpeg');
+    background-image: url('../imgs/events_hero.jpg');
+    background-position: center;
 }
 
 .logo {
