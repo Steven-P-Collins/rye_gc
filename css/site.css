@@ -5,6 +5,7 @@ body {
 
 a, a:hover, a:active, a:visited, a:focus {
     text-decoration:none;
+    color: #000000;
 }
 
 hr {
@@ -61,7 +62,7 @@ hr {
 
 .page-footer {
     box-shadow: 0 -.5rem 2rem rgba(0,0,0,.15)!important;
-    height: 20vh;
+    height: 22vh;
     padding: .5rem 0 .5rem 0 !important;
 }
 
